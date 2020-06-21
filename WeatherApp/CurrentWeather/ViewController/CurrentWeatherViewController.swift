@@ -115,7 +115,7 @@ extension CurrentWeatherViewController: CurrentWeatherView {
     }
     
     func showError(errorMessage: String) {
-        presentAlertWithTitle(title: "WeatherApp", message: errorMessage, options: "Close") { (option)  in}
+        
     }
     
     func showLocationError() {
